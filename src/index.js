@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+    createBrowserRouter,
+    RouterProvider
+} from "react-router-dom";
+import Splash from './components/Splash';
+import E404 from './components/E404';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Splash />
+  },
+  {
+    path: "*",
+    element: <E404 />
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
