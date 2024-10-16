@@ -2,21 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
     createBrowserRouter,
     RouterProvider
 } from "react-router-dom";
+import Navigate from './components/Navigate'
 import Splash from './components/Splash';
 import E404 from './components/E404';
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <Splash />
-  },
-  {
-    path: "*",
-    element: <E404 />
+    element: <Navigate />,
+    children: [
+      {
+        path: '/',
+        element: <Splash />
+      },
+      {
+        path: '*',
+        element: <E404 />
+      },
+    ]
   }
 ])
 
