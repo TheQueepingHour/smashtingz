@@ -9,3 +9,19 @@ English Violet
 Coral
 #FC814A 
 */
+
+body {
+    background: #564256 !important;
+}
+
+.platText {
+    color: #BFBFBF;
+}
+
+.coralText {
+    color: #FC814A;
+}
+
+.coralText .dropdown-toggle {
+    color: #FC814A;
+}
