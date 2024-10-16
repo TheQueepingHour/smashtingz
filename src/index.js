@@ -11,6 +11,7 @@ import {
 import Navigate from './components/Navigate'
 import Splash from './components/Splash';
 import E404 from './components/E404';
+import Basics from './components/Basics';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
         path: '*',
         element: <E404 />
       },
+      {
+        path: '/basics',
+        element: <Basics />
+      }
     ]
   }
 ])

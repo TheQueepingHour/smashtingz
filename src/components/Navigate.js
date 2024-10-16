@@ -13,8 +13,8 @@ const Navigate = () => {
             <Navbar.Collapse id="basic-navbar-nav coralText">
                 <Nav className="ms-auto px-3 coralText">
                     <NavDropdown title='Pages' id="basic-nav-dropdown" align='end' className="coralText">
-                        <NavDropdown.Item className="coralText">
-                            First page placeholder
+                        <NavDropdown.Item className="coralText" href="/basics">
+                            Basics
                         </NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
