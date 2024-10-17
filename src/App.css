@@ -14,6 +14,10 @@ body {
     background: #564256 !important;
 }
 
+.bgC {
+    background: #96939B;
+}
+
 .platText {
     color: #BFBFBF;
 }
