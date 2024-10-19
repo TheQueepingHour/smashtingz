@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 const Navigate = () => {
     return (
         <>
-        <Navbar expand='md' fixed='top' data-bs-theme='dark'>
+        <Navbar expand='md' fixed='top' data-bs-theme='dark' className="navBGC">
             <Navbar.Brand href="/" className="px-3 coralText">
                 Brand
             </Navbar.Brand>
