@@ -4,12 +4,12 @@ import { Container, Accordion } from "react-bootstrap";
 const Basics = () => {
     return (
         <Container fluid style={{paddingTop: '5em'}}>
-            <div className="platText">
+            <div className="platText mx-3">
                 <h2>
                     Welcome to the basics page
                 </h2>
                 <p>
-                    Here you will find information I believe to be basic and for all players.
+                    Here you will find information I believe to be basic and for all players. This page will go into mechanics of the game, not tech.
                 </p>
             </div>
             <Container fluid>
@@ -66,6 +66,20 @@ const Basics = () => {
                         <Accordion.Body>
                             <span className="coralText">Refers to how moves cause less damage and knockback as they are used multiple times in a row.</span><br />
                             There is a "queue" type of system in place, and this is how the game keeps track of how stale a move is. There are 9 slots for this queue, so if you use a move and then use 9 moves after it, it will become 'fresh' and do full knockback and damage.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="6">
+                        <Accordion.Header>Directional Influence (DI)</Accordion.Header>
+                        <Accordion.Body>
+                            <span className="coralText">"The control the receiver of an attack has over their trajectory"</span><br /><a href="https://www.ssbwiki.com/Directional_influence">Wiki Link</a><br />
+                            This is a very complicated topic with a lot of math involved, but basically, if you get hit, you can hold in a certain direction to influence the way you fly when hit.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="7">
+                        <Accordion.Header>Rage</Accordion.Header>
+                        <Accordion.Body>
+                            TLDR; The more damage your character takes, the more damage and knockback your attacks do. <br />
+                            Lucario's Aura, Joker's Arsene meter, and Terry's GO meter are some examples of special conditions met only through taking damage and accumulating "rage".
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

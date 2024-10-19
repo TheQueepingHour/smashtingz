@@ -18,6 +18,11 @@ body {
     background: #564256;
 }
 
+.brandImg {
+    max-height: 3em;
+    max-width: 3em;
+}
+
 .bgC {
     background: #96939B;
 }

@@ -7,7 +7,7 @@ const Navigate = () => {
         <>
         <Navbar expand='md' fixed='top' data-bs-theme='dark' className="navBGC">
             <Navbar.Brand href="/" className="px-3 coralText">
-                Brand
+                <img src="/logoplaceholder.png" alt="placeholder" className="brandImg"/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav coralText">
