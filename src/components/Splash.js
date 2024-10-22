@@ -7,7 +7,7 @@ function Splash() {
             <Row className="my-3">
                 <Col></Col>
                 <Col xs={6} className="text-center">
-                    <h2 className="platText">
+                    <h2 className="blueText">
                         Welcome to SmashTingz
                     </h2>
                 </Col>
@@ -16,7 +16,7 @@ function Splash() {
             <Row className="mt-3">
                 <Col></Col>
                 <Col md='auto'>
-                    <h4 className="platText">
+                    <h4 className="blueText">
                         A place where you can find Smash Ultimate knowledge without a longwinded YouTube video.
                     </h4>
                 </Col>

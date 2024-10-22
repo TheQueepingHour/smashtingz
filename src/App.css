@@ -1,21 +1,23 @@
 /* 
 Color Pallette
-Silver
-#BFBFBF
-Taupe Gray
-#96939B
-English Violet
-#564256
-Coral
-#FC814A 
+Pink
+#EF476F
+BLUE
+#058ED9
+YELLOW
+#FFD166
+GREEN
+#06D6A0
+WHITE
+#FCFCFC
 */
 
 body {
-    background: #564256 !important;
+    background: #4B4B4B !important;
 }
 
 .navBGC {
-    background: #564256;
+    background: #4B4B4B;
 }
 
 .brandImg {
@@ -23,18 +25,76 @@ body {
     max-width: 3em;
 }
 
-.bgC {
-    background: #96939B;
+/* .navDrop {
+
+} */
+
+.navButton {
+    background-color: #058ed9;
+    color: #FCFCFC;
+    border: none;
 }
 
-.platText {
-    color: #BFBFBF;
+.navButton:hover {
+    background-color: #026da7;
 }
 
-.coralText {
-    color: #FC814A;
+.navButton:active, .navButton:focus {
+    background-color: #026da7;
 }
 
-.coralText .dropdown-toggle {
-    color: #FC814A;
+.navMenu {
+    background-color: #058ed9;
+}
+
+.navMenu .dropdown-item {
+    color: #FCFCFC;
+}
+
+.navMenu .dropdown-item:hover {
+    background-color: #026da7;
+}
+
+.blueText {
+    color: #058ed9;
+}
+
+.pinkText {
+    color: #EF476F;
+    background-color: #0b0b0b;
+}
+
+.emeraldText {
+    color: #06D6A0;
+}
+
+.yellowText {
+    color: #FFD166;
+}
+
+.basicBGC .accordion-header {
+    color:#FCFCFC;
+}
+
+.basicBGC .accordion-button,
+.basicBGC .accordion-body {
+    background-color: #605f5f;
+}
+
+.basicBGC .accordion-button:focus {
+    /* border-color: #06D6A0; */
+    box-shadow: 0 0 0 0.2rem #06D6A0;
+}
+
+.basicBGC .accordion-button:not(.collapsed) {
+    color: #06D6A0;
+
+}
+
+.basicBGC .accordion-button::after {
+    display: none;
+}
+
+.basicBGC .accordion-button:not(.collapsed)::after {
+    color: #06D6A0; 
 }
