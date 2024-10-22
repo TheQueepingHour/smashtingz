@@ -21,6 +21,9 @@ const Navigate = () => {
                         <Dropdown.Item href="/basics">
                             Basics
                         </Dropdown.Item>
+                        <Dropdown.Item href="/Tech">
+                            Tech
+                        </Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
             </Container>

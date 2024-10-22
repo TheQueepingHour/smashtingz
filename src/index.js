@@ -12,6 +12,7 @@ import Navigate from './components/Navigate'
 import Splash from './components/Splash';
 import E404 from './components/E404';
 import Basics from './components/Basics';
+import Tech from './components/Tech';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/basics',
         element: <Basics />
+      },
+      {
+        path: '/tech',
+        element: <Tech />
       }
     ]
   }
