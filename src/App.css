@@ -61,6 +61,10 @@ body {
 
 .pinkText {
     color: #EF476F;
+}
+
+.wikiText {
+    color: #EF476F;
     background-color: #0b0b0b;
 }
 
@@ -82,7 +86,6 @@ body {
 }
 
 .basicBGC .accordion-button:focus {
-    /* border-color: #06D6A0; */
     box-shadow: 0 0 0 0.2rem #06D6A0;
 }
 
@@ -92,9 +95,34 @@ body {
 }
 
 .basicBGC .accordion-button::after {
-    display: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2306d6a0'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 
 .basicBGC .accordion-button:not(.collapsed)::after {
     color: #06D6A0; 
+}
+
+.techBGC .accordion-header {
+    color: white;
+}
+
+.techBGC .accordion-button,
+.techBGC .accordion-body {
+    background-color: #605f5f;
+}
+
+.techBGC .accordion-button:focus {
+    box-shadow: 0 0 0 0.2rem #FFD166;
+}
+
+.techBGC .accordion-button.accordion-button:not(.collapsed) {
+    color: #FFD166;
+}
+
+.techBGC .accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffd166'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.techBGC .accordion-button:not(.collapsed)::after {
+    color: #FFD166;
 }
