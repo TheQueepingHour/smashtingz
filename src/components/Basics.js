@@ -78,27 +78,37 @@ const Basics = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="7">
+                        <Accordion.Header>Control/Analog Stick</Accordion.Header>
+                        <Accordion.Body>
+                            <span className="wikiText">"The control stick has four primary directions that can be input"</span><br />
+                            A very simple concept, however there are a few minor nuances available to the player.<br />
+                            1. Depending on how you move the control stick, it will change how fast your character moves. By tilting the control stick horizontally, it will cause your character to walk in that direction, with varying speed depending on how far you tilt the stick. If you tilt the stick all the way to either side quickly, you will begin to dash. <br />
+                            2. Tilting the stick down will result in a crouch, and tilting up will only do something on it's own if you have tap jump on. <br />
+                            2a. However, <span className="wikiText">"The control stick can also be directed in diagonal directions, which will allow for more precise movement in the air as well as allowing some attacks to be angled."</span> Characters like Kazuya have certain attacks that require a specific directional input to perform.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="8">
                         <Accordion.Header>Directional Influence (DI)</Accordion.Header>
                         <Accordion.Body>
                             <span className="wikiText">"The control the receiver of an attack has over their trajectory"</span><br /><a href="https://www.ssbwiki.com/Directional_influence">Wiki Link</a><br />
                             This is a very complicated topic with a lot of math involved, but basically, if you get hit, you can hold in a certain direction to influence the way you fly when hit.
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="8">
+                    <Accordion.Item eventKey="9">
                         <Accordion.Header>Rage</Accordion.Header>
                         <Accordion.Body>
                             TLDR; The more damage your character takes, the more damage and knockback your attacks do. <br />
                             Lucario's Aura, Joker's Arsene meter, and Terry's GO meter are some examples of special conditions met only through taking damage and accumulating "rage".
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="9">
+                    <Accordion.Item eventKey="10">
                         <Accordion.Header>Ledge trump</Accordion.Header>
                         <Accordion.Body>
                             <span className="wikiText">"Grabbing onto a ledge that has already been grabbed by another player will gently remove them from the ledge"</span><br />
                             Basically, grabbing the ledge while someone else is on it, will cause them to fly a bit off of the ledge, which you can lead into an attack.
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="10">
+                    <Accordion.Item eventKey="11">
                         <Accordion.Header>2 Frame</Accordion.Header>
                         <Accordion.Body>
                             <span className="wikiText">"A two frame punish is a mechanic that allows a potential edge guarder to attack an opponent attempting to recover without even leaving the stage, or hardly coming off."</span><br />
